@@ -17,8 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Heroku Run
-      uses: michcio1234/heroku-run@0.1.1
+    - name: Deploy To Heroku
+      uses: AkhileshNS/heroku-deploy@v3.12.14
       with:
         heroku_api_key: 66543ab4-140c-412a-917b-8c48120ec457
         heroku_email: anhlt.ados@gmail.com
